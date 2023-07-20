@@ -1,0 +1,247 @@
+[{
+    "numero_constat": "12345",
+    "date_constat": "2023-07-12",
+    "lieu_accident": "Intersection rue principale et avenue des fleurs",
+    "description_accident": "Collision frontale entre deux véhicules",
+    "vehicule_1": {
+      "marque": "Toyota",
+      "modele": "Corolla",
+      "immatriculation": "AB-123-CD",
+      "conducteur": {
+        "nom": "Dupont",
+        "prenom": "Jean",
+        "adresse": "123 rue des Chênes",
+        "telephone": "+33 6 12 34 56 78",
+        "permis_conduire": "123456789"
+      },
+      "assurance": {
+        "compagnie": "Assurance AutoPlus",
+        "numero_contrat": "987654321",
+        "telephone": "+33 1 23 45 67 89"
+      },
+      "photos": [
+        {
+          "url": "https://example.com/photo1.jpg",
+          "description": "Dommages sur le pare-chocs avant"
+        },
+        {
+          "url": "https://example.com/photo2.jpg",
+          "description": "Dégâts sur le côté gauche"
+        }
+      ],
+      "position_gps": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      }
+    },
+    "vehicule_2": {
+      "marque": "Renault",
+      "modele": "Clio",
+      "immatriculation": "EF-456-GH",
+      "conducteur": {
+        "nom": "Martin",
+        "prenom": "Sophie",
+        "adresse": "456 avenue des Roses",
+        "telephone": "+33 6 98 76 54 32",
+        "permis_conduire": "987654321"
+      },
+      "assurance": {
+        "compagnie": "Assurance Directe",
+        "numero_contrat": "123456789",
+        "telephone": "+33 1 98 76 54 32"
+      },
+      "photos": [
+        {
+          "url": "https://example.com/photo3.jpg",
+          "description": "Dommages sur l'aile avant droite"
+        },
+        {
+          "url": "https://example.com/photo4.jpg",
+          "description": "Rayures sur la portière arrière gauche"
+        }
+      ],
+      "position_gps": {
+        "latitude": 48.8591,
+        "longitude": 2.2947
+      }
+    },
+    "temoins": [
+      {
+        "nom": "Leclerc",
+        "prenom": "Pierre",
+        "adresse": "789 rue du Soleil",
+        "telephone": "+33 6 54 32 10 98"
+      },
+      {
+        "nom": "Dumont",
+        "prenom": "Marie",
+        "adresse": "987 avenue de la Lune",
+        "telephone": "+33 6 78 90 12 34"
+      }
+    ]
+  },{
+    "numero_constat": "12345",
+    "date_constat": "2023-07-12",
+    "lieu_accident": "Intersection rue principale et avenue des fleurs",
+    "description_accident": "Collision frontale entre deux véhicules",
+    "vehicule_1": {
+      "marque": "Toyota",
+      "modele": "Corolla",
+      "immatriculation": "AB-123-CD",
+      "conducteur": {
+        "nom": "Dupont",
+        "prenom": "Jean",
+        "adresse": "123 rue des Chênes",
+        "telephone": "+33 6 12 34 56 78",
+        "permis_conduire": "123456789"
+      },
+      "assurance": {
+        "compagnie": "Assurance AutoPlus",
+        "numero_contrat": "987654321",
+        "telephone": "+33 1 23 45 67 89"
+      },
+      "photos": [
+        {
+          "url": "https://example.com/photo1.jpg",
+          "description": "Dommages sur le pare-chocs avant"
+        },
+        {
+          "url": "https://example.com/photo2.jpg",
+          "description": "Dégâts sur le côté gauche"
+        }
+      ],
+      "position_gps": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      }
+    },
+    "vehicule_2": {
+      "marque": "Renault",
+      "modele": "Clio",
+      "immatriculation": "EF-456-GH",
+      "conducteur": {
+        "nom": "Martin",
+        "prenom": "Sophie",
+        "adresse": "456 avenue des Roses",
+        "telephone": "+33 6 98 76 54 32",
+        "permis_conduire": "987654321"
+      },
+      "assurance": {
+        "compagnie": "Assurance Directe",
+        "numero_contrat": "123456789",
+        "telephone": "+33 1 98 76 54 32"
+      },
+      "photos": [
+        {
+          "url": "https://example.com/photo3.jpg",
+          "description": "Dommages sur l'aile avant droite"
+        },
+        {
+          "url": "https://example.com/photo4.jpg",
+          "description": "Rayures sur la portière arrière gauche"
+        }
+      ],
+      "position_gps": {
+        "latitude": 48.8591,
+        "longitude": 2.2947
+      }
+    },
+    "temoins": [
+      {
+        "nom": "Leclerc",
+        "prenom": "Pierre",
+        "adresse": "789 rue du Soleil",
+        "telephone": "+33 6 54 32 10 98"
+      },
+      {
+        "nom": "Dumont",
+        "prenom": "Marie",
+        "adresse": "987 avenue de la Lune",
+        "telephone": "+33 6 78 90 12 34"
+      }
+    ]
+  }
+  ,{
+    "numero_constat": "12345",
+    "date_constat": "2023-07-12",
+    "lieu_accident": "Intersection rue principale et avenue des fleurs",
+    "description_accident": "Collision frontale entre deux véhicules",
+    "vehicule_1": {
+      "marque": "Toyota",
+      "modele": "Corolla",
+      "immatriculation": "AB-123-CD",
+      "conducteur": {
+        "nom": "Dupont",
+        "prenom": "Jean",
+        "adresse": "123 rue des Chênes",
+        "telephone": "+33 6 12 34 56 78",
+        "permis_conduire": "123456789"
+      },
+      "assurance": {
+        "compagnie": "Assurance AutoPlus",
+        "numero_contrat": "987654321",
+        "telephone": "+33 1 23 45 67 89"
+      },
+      "photos": [
+        {
+          "url": "https://example.com/photo1.jpg",
+          "description": "Dommages sur le pare-chocs avant"
+        },
+        {
+          "url": "https://example.com/photo2.jpg",
+          "description": "Dégâts sur le côté gauche"
+        }
+      ],
+      "position_gps": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      }
+    },
+    "vehicule_2": {
+      "marque": "Renault",
+      "modele": "Clio",
+      "immatriculation": "EF-456-GH",
+      "conducteur": {
+        "nom": "Martin",
+        "prenom": "Sophie",
+        "adresse": "456 avenue des Roses",
+        "telephone": "+33 6 98 76 54 32",
+        "permis_conduire": "987654321"
+      },
+      "assurance": {
+        "compagnie": "Assurance Directe",
+        "numero_contrat": "123456789",
+        "telephone": "+33 1 98 76 54 32"
+      },
+      "photos": [
+        {
+          "url": "https://example.com/photo3.jpg",
+          "description": "Dommages sur l'aile avant droite"
+        },
+        {
+          "url": "https://example.com/photo4.jpg",
+          "description": "Rayures sur la portière arrière gauche"
+        }
+      ],
+      "position_gps": {
+        "latitude": 48.8591,
+        "longitude": 2.2947
+      }
+    },
+    "temoins": [
+      {
+        "nom": "Leclerc",
+        "prenom": "Pierre",
+        "adresse": "789 rue du Soleil",
+        "telephone": "+33 6 54 32 10 98"
+      },
+      {
+        "nom": "Dumont",
+        "prenom": "Marie",
+        "adresse": "987 avenue de la Lune",
+        "telephone": "+33 6 78 90 12 34"
+      }
+    ]
+  }
+  ]
+  
