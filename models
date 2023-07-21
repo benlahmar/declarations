@@ -1,0 +1,178 @@
+
+
+import 'dart:convert';
+
+List<Accident> accidentModelFromJson(String str) =>
+    List<Accident>.from(json.decode(str).map((x) => Accident.fromJson(x)));
+/*
+String accidentModelToJson(List<Accident> data) =>
+    json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
+
+
+*/
+
+class Accident {
+  String numeroConstat;
+  String dateConstat;
+  String lieuAccident;
+  String descriptionAccident;
+  Vehicule vehicule1;
+  Vehicule vehicule2;
+ 
+
+  Accident({
+    required this.numeroConstat,
+    required this.dateConstat,
+    required this.lieuAccident,
+    required this.descriptionAccident,
+    required this.vehicule1,
+    required this.vehicule2,
+   
+  });
+
+  factory Accident.fromJson(Map<String, dynamic> json) {
+    return Accident(
+      numeroConstat: json['numero_constat'],
+      dateConstat: json['date_constat'],
+      lieuAccident: json['lieu_accident'],
+      descriptionAccident: json['description_accident'],
+      vehicule1: Vehicule.fromJson(json['vehicule_1']),
+      vehicule2: Vehicule.fromJson(json['vehicule_2']),
+    );
+  }
+}
+
+class Vehicule {
+  String marque;
+  String modele;
+  String immatriculation;
+  Conducteur conducteur;
+  Assurance assurance;
+  List<Photo> photos;
+  PositionGps positionGps;
+
+  Vehicule({
+    required this.marque,
+    required this.modele,
+    required this.immatriculation,
+    required this.conducteur,
+    required this.assurance,
+    required this.photos,
+    required this.positionGps,
+  });
+
+  factory Vehicule.fromJson(Map<String, dynamic> json) {
+    return Vehicule(
+      marque: json['marque'],
+      modele: json['modele'],
+      immatriculation: json['immatriculation'],
+      conducteur: Conducteur.fromJson(json['conducteur']),
+      assurance: Assurance.fromJson(json['assurance']),
+      photos: (json['photos'] as List).map((item) => Photo.fromJson(item)).toList(),
+      positionGps: PositionGps.fromJson(json['position_gps']),
+    );
+  }
+}
+
+class Conducteur {
+  String nom;
+  String prenom;
+  String adresse;
+  String telephone;
+  String permisConduire;
+
+  Conducteur({
+    required this.nom,
+    required this.prenom,
+    required this.adresse,
+    required this.telephone,
+    required this.permisConduire,
+  });
+
+  factory Conducteur.fromJson(Map<String, dynamic> json) {
+    return Conducteur(
+      nom: json['nom'],
+      prenom: json['prenom'],
+      adresse: json['adresse'],
+      telephone: json['telephone'],
+      permisConduire: json['permis_conduire'],
+    );
+  }
+}
+
+class Assurance {
+  String compagnie;
+  String numeroContrat;
+  String telephone;
+
+  Assurance({
+    required this.compagnie,
+    required this.numeroContrat,
+    required this.telephone,
+  });
+
+  factory Assurance.fromJson(Map<String, dynamic> json) {
+    return Assurance(
+      compagnie: json['compagnie'],
+      numeroContrat: json['numero_contrat'],
+      telephone: json['telephone'],
+    );
+  }
+}
+
+class Photo {
+  String url;
+  String description;
+
+  Photo({
+    required this.url,
+    required this.description,
+  });
+
+  factory Photo.fromJson(Map<String, dynamic> json) {
+    return Photo(
+      url: json['url'],
+      description: json['description'],
+    );
+  }
+}
+
+class PositionGps {
+  double latitude;
+  double longitude;
+
+  PositionGps({
+    required this.latitude,
+    required this.longitude,
+  });
+
+  factory PositionGps.fromJson(Map<String, dynamic> json) {
+    return PositionGps(
+      latitude: json['latitude'],
+      longitude: json['longitude'],
+    );
+  }
+}
+
+class Temoin {
+  String nom;
+  String prenom;
+  String adresse;
+  String telephone;
+
+  Temoin({
+    required this.nom,
+    required this.prenom,
+    required this.adresse,
+    required this.telephone,
+  });
+
+  factory Temoin.fromJson(Map<String, dynamic> json) {
+    return Temoin(
+      nom: json['nom'],
+      prenom: json['prenom'],
+      adresse: json['adresse'],
+      telephone: json['telephone'],
+    );
+  }
+}
